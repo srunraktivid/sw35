@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+
+<div class="container mt-5">
+
+    <h3 class="mb-4">Shopping Cart</h3>
+
+    <div class="row">
+
+        <!-- CART TABLE -->
+
+        <div class="col-md-8">
+
+            <table class="table table-bordered align-middle">
+
+                <thead class="thead-light">
+
+                <tr>
+                    <th>Product</th>
+                    <th width="120">Price</th>
+                    <th width="150">Quantity</th>
+                    <th width="120">Subtotal</th>
+                    <th width="80"></th>
+                </tr>
+
+                </thead>
+
+                <tbody>
+
+                <tr>
+
+                    <td>
+
+                        <div class="d-flex align-items-center">
+
+                            <img src="https://via.placeholder.com/80"
+                                 class="mr-3"
+                                 style="width:80px">
+
+                            <div>
+
+                                <strong>Wireless Headphone</strong>
+
+                                <br>
+
+                                <small class="text-muted">
+                                    Electronics
+                                </small>
+
+                            </div>
+
+                        </div>
+
+                    </td>
+
+                    <td>$80</td>
+
+                    <td>
+
+                        <div class="input-group">
+
+                            <div class="input-group-prepend">
+                                <button class="btn btn-outline-secondary btn-sm">-</button>
+                            </div>
+
+                            <input type="text"
+                                   class="form-control text-center"
+                                   value="1">
+
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary btn-sm">+</button>
+                            </div>
+
+                        </div>
+
+                    </td>
+
+                    <td>$80</td>
+
+                    <td class="text-center">
+
+                        <button class="btn btn-sm btn-danger">
+                            <i class="fa fa-trash"></i>
+                        </button>
+
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+
+                        <div class="d-flex align-items-center">
+
+                            <img src="https://via.placeholder.com/80"
+                                 class="mr-3"
+                                 style="width:80px">
+
+                            <div>
+
+                                <strong>Bluetooth Speaker</strong>
+
+                                <br>
+
+                                <small class="text-muted">
+                                    Electronics
+                                </small>
+
+                            </div>
+
+                        </div>
+
+                    </td>
+
+                    <td>$60</td>
+
+                    <td>
+
+                        <div class="input-group">
+
+                            <div class="input-group-prepend">
+                                <button class="btn btn-outline-secondary btn-sm">-</button>
+                            </div>
+
+                            <input type="text"
+                                   class="form-control text-center"
+                                   value="2">
+
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary btn-sm">+</button>
+                            </div>
+
+                        </div>
+
+                    </td>
+
+                    <td>$120</td>
+
+                    <td class="text-center">
+
+                        <button class="btn btn-sm btn-danger">
+                            <i class="fa fa-trash"></i>
+                        </button>
+
+                    </td>
+
+                </tr>
+
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+
+        <!-- CART SUMMARY -->
+
+        <div class="col-md-4">
+
+            <div class="card">
+
+                <div class="card-header">
+                    Order Summary
+                </div>
+
+                <div class="card-body">
+
+                    <div class="d-flex justify-content-between">
+
+                        <span>Subtotal</span>
+                        <strong>$200</strong>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="d-flex justify-content-between">
+
+                        <span>Shipping</span>
+                        <strong>$10</strong>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="d-flex justify-content-between">
+
+                        <h5>Total</h5>
+                        <h5>$210</h5>
+
+                    </div>
+
+                    <a href="#" class="btn btn-dark btn-block mt-3">
+                        Proceed to Checkout
+                    </a>
+
+                    <a href="#" class="btn btn-outline-secondary btn-block">
+                        Continue Shopping
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>
